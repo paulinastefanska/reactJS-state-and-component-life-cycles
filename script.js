@@ -18,8 +18,8 @@ var Counter = React.createClass({
     },
 
     render: function() {
-        return React.createElement('div', {},
-            React.createElement('span', {}, 'Counter ' + this.state.counter),
+        return React.createElement("div", {},
+            React.createElement("span", {}, "Counter " + this.state.counter),
             React.createElement("button", 
                 {onClick: this.increment}, "+"),
             React.createElement("button", 
@@ -49,4 +49,4 @@ var moreCounters = React.createClass({
 });
 
 var element = React.createElement(Counter);
-ReactDOM.render(element, document.getElementById('app'));
+ReactDOM.render(element, document.getElementById("app"));

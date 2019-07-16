@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+div {
+	margin: 10px;
+}
+span {
+	margin: 10px;
+}
+button {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 16px;
+}
