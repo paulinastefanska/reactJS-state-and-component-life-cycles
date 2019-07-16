@@ -35,18 +35,13 @@ var moreCounters = React.createClass({
                 className: "app"
             },
             React.createElement("div", {},
-                React.createElement("div", {},
-                    React.createElement(Counter, {})),
-
-                React.createElement("div", {},
-                    React.createElement(Counter, {})),
-
-                React.createElement("div", {},
-                    React.createElement(Counter, {})),
+                React.createElement(Counter, {}),
+                React.createElement(Counter, {}),
+                React.createElement(Counter, {}),
             ),
         )
     )}
 });
 
-var element = React.createElement(Counter);
+var element = React.createElement(moreCounters);
 ReactDOM.render(element, document.getElementById("app"));
